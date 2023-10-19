@@ -18,5 +18,5 @@
 6. **Database Management: The application relies on a database to store employee data, task details, availability, and other pertinent information.**
 
 
-**TECH STACK: Bootstrap, PHP, MySQL**
+**TECH STACK: Bootstrap, PHP, JS, MySQL**
 
