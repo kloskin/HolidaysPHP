@@ -1,0 +1,283 @@
+/*Ogólne zmiany w css*/
+
+
+body {
+    background-color: #617487;
+}
+
+/*Navbar*/
+
+.nav-item {
+    transition: background-color .2s;
+}
+
+
+/*Przyciski*/
+.btn-primary {
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+}
+
+.btn-primary:hover {
+    background-color: black;
+}
+
+.btn-outline-primary {
+    border-color: #2c3e50;
+    color: #2c3e50;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem #2c3e50;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+}
+
+.btn-primary:not([disabled]):not(.disabled).active,
+.btn-primary:not([disabled]):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+    box-shadow: 0 0 0 0.2rem #2c3e50;
+}
+
+.btn-outline-primary:hover {
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+}
+
+.btn-outline-primary:after {
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+}
+
+
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+    color: #2c3e50;
+    background-color: transparent;
+}
+
+.btn-outline-primary:not([disabled]):not(.disabled).active,
+.btn-outline-primary:not([disabled]):not(.disabled):active,
+.show > .btn-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+    box-shadow: 0 0 0 0.2rem #2c3e50;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Edycja użytkownika*/
+.listBg {
+    padding: 5px 0;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.table th {
+    padding: 5px;
+}
+
+.table td {
+
+    padding: 0 5px;
+}
+
+/*Kalendarz*/
+
+#calendar a {
+    color: #2c3e50;
+}
+
+.calendarBackground {
+    background-color: whitesmoke;
+}
+
+#calendar {
+    max-width: 680px;
+    margin: 0 auto;
+    top: 100px;
+    background-color: whitesmoke;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.calendar-top {
+    margin-top: 100px;
+    top: 100px;
+
+}
+
+
+/*Zatwierdzanie urlopu*/
+
+.vacationBg {
+    background-color: #CFD1D3;
+}
+
+.vacationBg {
+    font-size: 10px;
+}
+
+.vacationBg h4 {
+    font-size: 16px;
+}
+
+.vacationBg h5 {
+    font-size: 13px;
+}
+
+.vacationBg .borderRight {
+    border-right: solid black 1px;
+
+}
+
+
+@media (min-height: 800px) {
+    /*Kalendarz*/
+    #calendar {
+        max-width: 950px;
+    }
+
+    /*Tabela*/
+
+
+}
+
+@media (min-height: 1400px) {
+    #calendar {
+        max-width: 1100px;
+
+    }
+}
+
+@media (min-width: 576px) {
+    .listBg {
+        padding: 16px 0;
+    }
+
+
+}
+
+@media (min-width: 768px) {
+    /*    Zatwierdzanie urlopu*/
+    .vacationBg {
+        font-size: 16px;
+    }
+
+    .vacationBg h4 {
+        font-size: 22px;
+    }
+
+    .vacationBg h5 {
+        font-size: 20px;
+    }
+
+    .table th {
+        padding: 5px;
+    }
+
+    .table td {
+
+        padding: 0 5px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    /*Navbar*/
+    .nav-item {
+        padding: 7px 2px;
+        margin: 0;
+    }
+
+    .nav-link {
+        /*margin: 0;*/
+    }
+
+    .nav-item:hover {
+        background-color: #2D4358;
+    }
+
+    .nav-item:hover .nav-link {
+        color: white;
+
+    }
+
+    .navbar-nav .nav-link.active {
+        float: right;
+    }
+
+    .table th {
+        padding: 20px;
+    }
+
+    .table td {
+
+        padding: 0 30px;
+    }
+
+}
+
+@media (min-width: 1250px) {
+    .nav-item {
+        padding: 7px;
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .navbar .container {
+        padding: 10px;
+    }
+
+    .navbar .nav-link {
+        color: white;
+        margin: 10px 0;
+        text-align: center;
+        border: #617487 solid 1px;
+        border-radius: 5px;
+        background-color: #617487;
+    }
+
+    .navbar-nav .nav-link.active {
+        margin-top: 30px;
+        color: white;
+    }
+
+    .navbar-toggler {
+        border: none !important;
+    }
+
+    .list-inline-item {
+        background-color: rgb(248, 249, 250) !important;
+        border: none !important;
+
+    }
+
+    .navbar .nav-link .active {
+        color: white;
+    }
+
+    .list-inline-item .btn-primary {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+}
