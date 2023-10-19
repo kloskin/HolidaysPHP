@@ -5,7 +5,12 @@
 >login: admin@admin.com <br />
 >password: admin
 
-Holiday Employee Allocation System application is a tool built in PHP and utilizing the Bootstrap framework, designed to help businesses and organizations efficiently organize and manage their available workforce. The purpose of this application is to effectively allocate tasks or substitutions to employees when others are unavailable for various reasons, such as vacation, illness, or other commitments. <br />
+**Holiday Employee Allocation System application is a tool built in PHP and utilizing the Bootstrap framework, designed to help businesses and organizations efficiently organize and manage their available workforce. The purpose of this application is to effectively allocate tasks or substitutions to employees when others are unavailable for various reasons, such as vacation, illness, or other commitments.** <br />
+
+1.2
+2.3124
+3.5asdas
+4.5aads
 
 
 1.**Login and Authorization**: The application starts with a login page where employees and management can log in using their unique credentials. The system is protected against unauthorized access.
