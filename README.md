@@ -20,3 +20,14 @@
 
 **TECH STACK: Bootstrap,HTML,CSS,PHP, JS, MySQL**
 
+
+## Screenshots
+
+![](Screens/sc1.png)
+![](Screens/sc2.png)
+![](Screens/sc3.png)
+![](Screens/sc4.png)
+![](Screens/sc5.png)
+![](Screens/sc6.png)
+![](Screens/sc7.png)
+
