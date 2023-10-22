@@ -5,6 +5,7 @@
 >login: admin@admin.com <br />
 >password: admin
 
+
 **Holiday Employee Allocation System application is a tool built in PHP and utilizing the Bootstrap framework also using FullCalendar package, designed to help businesses and organizations efficiently organize and manage their available workforce. The purpose of this application is to effectively allocate tasks or substitutions to employees when others are unavailable for various reasons, such as vacation, illness, or other commitments.** <br />
 
 
@@ -20,6 +21,7 @@
 
 **TECH STACK: Bootstrap,HTML,CSS,PHP, JS, MySQL**
 
+<br><br>
 
 ## Screenshots
 
